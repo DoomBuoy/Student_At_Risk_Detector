@@ -1,8 +1,5 @@
 # Student_At_Risk_Detector
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
 
 Student at Academic Risk Detector: Developed a machine learning solution to identify students at risk of academic underperformance using educational data, featuring data preprocessing, feature engineering, model training, and actionable insights for early intervention; Tech: Python, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, Data Analytics, Machine Learning, Data Visualization, Jupyter Notebook, Data Science, Predictive Modeling, EDA.
 
