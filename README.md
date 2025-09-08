@@ -4,6 +4,13 @@
 Student at Academic Risk Detector: Developed a machine learning solution to identify students at risk of academic underperformance using educational data, featuring data preprocessing, feature engineering, model training, and actionable insights for early intervention; Tech: Python, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, Data Analytics, Machine Learning, Data Visualization, Jupyter Notebook, Data Science, Predictive Modeling, EDA.
 # Setup:
 Run the SetYouUp.ipynb file to get started.
+
+# Running the Project
+0. Run `SetYouUp.ipynb`
+1. Open the project folder in your terminal.
+2. Start Jupyter Lab with `poetry run jupyter lab` or launch Visual Studio Code with `poetry run code .` (ensure VS Code is added to your system PATH to use the latter command).
+3. If using VS Code, select the kernel that matches the project folder name.
+
 ## Data Dictionary
 
 | Column                   | Description                                                                                  |
