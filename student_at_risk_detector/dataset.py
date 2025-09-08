@@ -3,7 +3,10 @@ from pathlib import Path
 from loguru import logger
 from tqdm import tqdm
 import typer
-
+import os
+os.system('poetry update')
+os.system('poetry install')
+os.system('poetry lock')
 from student_at_risk_detector.config import PROCESSED_DATA_DIR, RAW_DATA_DIR
 
 app = typer.Typer()
