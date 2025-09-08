@@ -9,6 +9,10 @@ os.system('poetry install')
 os.system('poetry lock')
 from student_at_risk_detector.config import PROCESSED_DATA_DIR, RAW_DATA_DIR
 
+# Get the absolute path to the project root
+project_root = Path(__file__).resolve().parent.parent
+processed_dir = project_root / 'data' / 'processed'
+processed_dir.mkdir(parents=True, exist_ok=True)
 app = typer.Typer()
 
 
